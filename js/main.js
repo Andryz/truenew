@@ -176,9 +176,9 @@ try {
       // window.location.href
       // origin
       // document.location.href = "http://localhost:3000";
-      if (window.location.origin + '/' !== document.location.href) {
+      // if (window.location.origin + '/' !== document.location.href) {
         document.location.href = window.location.origin;
-      }
+      // }
 
       var itemValue = item.getAttribute('data-nav');
       var navElem = document.querySelector("[data-".concat(itemValue, "=\"val\"]")); // navElem.scrollIntoView({ behavior: 'smooth'});
@@ -210,7 +210,7 @@ try {
   }
 }
 
-if (window.location.origin + '/' === document.location.href) {
+// if (window.location.origin + '/' === document.location.href) {
   // Mob menu
   navMenu.addEventListener('click', function () {
     popupMenu.classList.add('show');
@@ -561,7 +561,7 @@ if (window.location.origin + '/' === document.location.href) {
       }
     }
   }
-}
+// }
 
 submitFF.addEventListener('click', function () {
   submitFF.innerText = 'sending...';
