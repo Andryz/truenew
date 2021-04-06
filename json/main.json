@@ -52,16 +52,16 @@
     "trueflipcom": {
       "imgs": [
         {
-          "src": "img/tf/01.png"
+          "src": "img/tf_com/01.png"
         },
         {
-          "src": "img/tf/02.png"
+          "src": "img/tf_com/02.png"
         },
         {
-          "src": "img/tf/03.png"
+          "src": "img/tf_com/03.png"
         },
         {
-          "src": "img/tf/video.png"
+          "src": "img/tf_com/video.png"
         }
       ],
       "topDescripton": "True Flip.com - is all the best from True Flip.io but with MGA license. Is there anything else to say?",
